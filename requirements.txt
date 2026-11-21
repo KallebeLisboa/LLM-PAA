@@ -1,0 +1,13 @@
+# Bibliotecas utilizadas no projeto de PAA (e respectivas licenças para a apresentação):
+# - Python 3 / sqlite3      : PSF License / Public Domain
+# - numpy                   : BSD-3-Clause License
+# - gensim (Word2Vec)       : LGPL-2.1 License
+# - faiss-cpu (HNSW/Cosine) : MIT License
+# - sentence-transformers   : Apache-2.0 License
+# - huggingface_hub         : Apache-2.0 License
+
+numpy>=1.26.0
+gensim>=4.3.2
+faiss-cpu>=1.8.0
+sentence-transformers>=3.0.0
+huggingface_hub>=0.24.0
