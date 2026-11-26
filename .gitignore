@@ -1,0 +1,20 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+10gb dados/
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.npy
+*.csv
+*.parquet
+indices/
+*.bin
+*.model
+*.index
+.vscode/
+.DS_Store
+Thumbs.db
