@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PubMed Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div class="chat-container">
+
+        <header class="chat-header">
+            <div class="logo">P</div>
+            <div>
+                <h1>PubMed Assistant</h1>
+                <p>Assistente de perguntas e respostas científicas</p>
+            </div>
+        </header>
+
+        <main id="chat-messages" class="chat-messages">
+            <div class="welcome">
+                <h2>Como posso ajudar?</h2>
+                <p>Faça uma pergunta sobre pesquisas e artigos científicos do PubMed.</p>
+            </div>
+        </main>
+
+        <form id="chat-form" class="chat-form">
+            <textarea
+                id="question-input"
+                placeholder="Envie uma pergunta..."
+                rows="1"
+                required
+            ></textarea>
+            <button id="send-button" type="submit" aria-label="Enviar pergunta">
+                ↑
+            </button>
+        </form>
+
+        <footer>
+            As respostas são geradas com base nos artigos recuperados do PubMed.
+        </footer>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

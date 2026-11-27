@@ -142,4 +142,15 @@ Todo o grupo trabalha sobre o mesmo padrão de `doc_id` (`0` até `num_docs - 1`
 
 > **Documentação Técnica e Execução:** Para detalhes sobre como rodar os benchmarks, testes e scripts individuais, consulte [`src/README.md`](src/README.md).
 
+
+## 6. Iniciar a API e o frontend
+
+Na pasta raiz do projeto, com o ambiente virtual ativado, execute:
+
+uvicorn api:app --app-dir src --reload
+
+Após iniciar o servidor, a aplicação estará disponível nos seguintes endereços:
+
+Frontend: http://127.0.0.1:8000/chat
+
 ---
