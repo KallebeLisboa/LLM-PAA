@@ -53,7 +53,7 @@ form.addEventListener("submit", async (event) => {
                 pergunta: pergunta,
                 metodo_busca: "hnsw",
                 modelo: "phi3:mini",
-                top_k: 1
+                top_k: 3
             })
         });
 

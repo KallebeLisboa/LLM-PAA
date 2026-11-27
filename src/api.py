@@ -28,7 +28,7 @@ class PerguntaRequest(BaseModel):
     pergunta: str = Field(min_length=1)
     metodo_busca: str = "hnsw"
     modelo: str = "phi3:mini"
-    top_k: int = Field(default=1, ge=1, le=10)
+    top_k: int = Field(default=3, ge=1, le=10)
 
 
 app.mount(
